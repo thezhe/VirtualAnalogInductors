@@ -55,17 +55,25 @@ Replacing the analog integrator with a trapezoidal integrator satisfies the firs
 
 To solve the delay-free loop (solve for v), we must first solve for y (3.1). An ***explicit*** solution exists for y because the feedback loop is linear (multiplied by g) (3.2). Finally, we solve v (3.3) by substituting y with (3.2). Via code, we solve for v and then use it to find y and update s per each iteration.
 
+<!---
+Add pseudo code Here
+--->
+
 ## 4. Nonlinear RL Models
 
 ![MM1_NLRL_BD](Images/MM1_NLRL_BD.svg)
 
 *Figure 4.1: Nonlinear RL MMF block diagram*
 
-A nonlinear RL MMF (2.4) is simply an MMF with a cutoff that depends on a nonlinear function of input and output levels. This function may or may be ***static***.
+A nonlinear RL MMF (2.4) is simply an MMF with a nonlinear function -- which is not necessarily ***static*** -- of the output as the current cutoff.
 
 ![FroelichKennnelly](Images/FroelichKennelly.svg)
 
 A B-H relation defines magnetic flux density (B) as a function of magnetizing force (H) (4.1). This characteristic is the main source of inductor nonlinearity because core saturation prevents H from creating an infinite amount of B. Using the Froelich-Kennelly B-H relation (4.2), we can find the permeability (mu) as a function of H. Simply put, at low signal levels, this value is approximately that of the core material permeability (mu_0*mu_i), but at high signal levels, this values drops to the permeability of a vaccumm [2, Sections 2 and 4].
+
+<!-- 
+Add Geogebra graph here
+-->
 
 ## 4. Nonlinear TPT MMF
 
