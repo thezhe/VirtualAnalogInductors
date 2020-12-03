@@ -1,0 +1,27 @@
+\begin{align*}
+
+& \textsl{(3.1)}: \; y = g(x-y)+s, g = \frac{\omega_cT}{2}, y = y_{LP}(t), x = x(t) \\
+
+& \textsl{(3.2)}: \; y = Gx+S, G = \frac{g}{1+g}, S=\frac{s}{1+g} \\
+
+& \textsl{(3.3)}: \; v = g(x-y) = g(x-Gx-S) = g \left(x-\frac{g}{1+g}x-\frac{s}{1+g} \right) \\
+& = g\left ( \frac{1}{1+g}x-\frac{s}{1+g} \right ) = g\frac{x-s}{1+g} = G(x-s)
+
+\end{align*} 
+
+\begin{align*} 
+
+& \textsl{(4.1)}: B = f(H)\\
+
+& \textsl{(4.2)}: \mu = \frac{dB}{dH} =\frac{d}{dH} \left ( \frac{H}{c+b|H|} \right ) 
+= \frac{c}{(c+b|H|)^2}\\ 
+& b = \frac{1-\sqrt{1/\mu_i}}{B_{sat}} \\ 
+& c = \frac{1}{\mu_0 \mu_i} \\
+& H = \frac{NI_L}{l}= \frac{NV_o}{lR}\\
+
+& \textsl{(4.3)}: L = \frac{\mu N^2S}{l} =  
+\frac{N^2 S c}{l(c+\frac{bN}{lR}|V_o|)^2}\\
+
+& \textsl{(4.4)}: \omega_c = \frac{R}{L} = \frac{Rl(c+\frac{bN}{lR}|V_o|)^2}{N^2 S c}   
+
+\end{align*}
