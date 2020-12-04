@@ -116,9 +116,9 @@ Once we have y, we can use the linear TPT algorithm, except we use y to calculat
 
 ***inverse Laplace transform of (2.1)***
 
-***DE*** differential equation
-
 ![LP_DE_proof](Images/LP_DE_proof.svg)
+
+***DE*** differential equation
 
 ***MMF*** multimode (multiple output) filter
 
@@ -134,7 +134,7 @@ Once we have y, we can use the linear TPT algorithm, except we use y to calculat
 
 [MMF](https://soul.dev/lab/?id=e7c278a48dc274a33034f18c2174b925)
 
-[RL](https://soul.dev/lab/?id=b9c94cf9224d4364177e7cad3935fcae)
+[RL](https://soul.dev/lab/?id=7880ccf015d08c09c8af77147ac94652)
 
 ## References
 
