@@ -134,7 +134,7 @@ Once we have y, we can use the linear TPT algorithm, except we use y to calculat
 
 [MMF](https://soul.dev/lab/?id=e7c278a48dc274a33034f18c2174b925)
 
-[RL](https://soul.dev/lab/?id=7880ccf015d08c09c8af77147ac94652)
+[RL](https://soul.dev/lab/?id=eb6ab55f6e442403b64c8179ec28d011)
 
 ## References
 
